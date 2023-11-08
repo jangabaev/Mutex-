@@ -1,0 +1,20 @@
+.contack__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contack__form__centr p{
+    font-family: 'Open Sans';
+    color: rgba(33,33,33,1);
+    font-size: 13pt;
+    line-height: 1.6;
+    margin-top: 15px;
+    text-align: center;
+}
+.contack__form__all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}

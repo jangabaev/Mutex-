@@ -1,0 +1,142 @@
+.homeSystem{
+    position: relative;
+    background-color: var(--textWhite);
+}
+
+.homeSystem__text{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.homeSystem__text__centr{
+    text-align: center;
+}
+
+.homeSystem__text__centr h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 38pt;
+    line-height: 1.23;
+    font-weight: 400;
+    color: var(--blue);
+    padding-bottom: 15px;
+}
+
+.homeSystem__text__centr__p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeSystem__text__centr__p p{
+    max-width: 950px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(33,33,33,1);
+    font-size: 13pt;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.homeSystem__grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.homeSystem__grid__item{
+    display: block;
+
+}
+.homeSystem__grid__item__top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeSystem__grid__item__top img{
+    width: 365px;
+    height: 365px;
+    display: inline;
+}
+
+.homeSystem__grid__item h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 29pt;
+    line-height: 1.42;
+    font-weight: 400;
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.homeSystem__grid__item p{
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    color: rgba(33,33,33,1);
+    font-size: 13pt;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.homeSystem__border{
+    margin: 30px 0px;
+    width: 100%;
+    height: 3px;
+    background-color: var(--blue);
+}
+
+.homeSystem__text__centr h3{
+    padding-bottom: 10px;
+    font-family: Oswald;
+    font-size: 29pt;
+    line-height: 1.42;
+    font-weight: 400;
+    color: rgba(31,31,31,1);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.homeSystem__container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.homeSystem__system{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+.homeSystem__system__item{
+    display: block;
+}
+.homeSystem__system__item__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeSystem__system__item__img img{
+    width: 165px;
+    height: 165px;
+    display: inline;
+}
+
+.homeSystem__system__item__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeSystem__system__item__text p{
+    font-family: 'Open Sans';
+    color: rgba(33,33,33,1);
+    font-size: 13pt;
+    line-height: 1.6;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .6px;
+    width: 120px;
+}

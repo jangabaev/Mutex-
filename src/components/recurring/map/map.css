@@ -1,0 +1,47 @@
+.map{
+    background-color: var(--bgmap);
+    padding: 30px 10px;
+}
+
+.map__flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.map__left{
+    min-width: 250px;
+}
+
+.map__left h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 29pt;
+    line-height: 1.42;
+    font-weight: 400;
+    color: var(--blue);
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.map__left p{
+    font-family: 'Open Sans';
+    color: rgba(33,33,33,1);
+    font-size: 13pt;
+    line-height: 1.6;
+}
+
+.map__rigth{
+    display: block;
+    width: 100%;
+}
+
+.ymaps-2-1-79-map{
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.map__rigth div{
+    width: 100% !important;
+    height: 300px !important;
+}

@@ -1,0 +1,54 @@
+@import url(./normailize.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Oswald:wght@400;500;600&display=swap');
+/* font-family: 'Open Sans', sans-serif; 
+font-family: 'Oswald', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+:root{
+    /* color  */
+    --bgheader:#000000;
+    --textWhite:#fff;
+    --blue:#176FC1;
+    --textblack:#212121;
+    --bgmap:#F2F2F2;
+    --bgactive:#1F1F1F;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  span{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+  
+  a , span{
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  
+  ul,li{
+    list-style: none;
+  }
